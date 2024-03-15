@@ -17,6 +17,9 @@
 *.env.development
 
 
+server/.env
+frontend/.env
+
 
 # misc
 .DS_Store
