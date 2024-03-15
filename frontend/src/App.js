@@ -6,6 +6,8 @@ import Home from './pages/Home'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Navbar from './components/Navbar'
+import NewPage from './pages/NewPage'
+
 
 function App() {
 
@@ -30,6 +32,12 @@ function App() {
               path="/signup" 
               element={ !user ? <Signup /> : <Navigate to="/"/>} 
             />
+              {/* NewPage route accessible only if logged in */}
+            <Route 
+              path="/newpage" 
+              element={ user ? <NewPage /> : <Navigate to="/login" />} 
+            />
+
           </Routes>
         </div>
       </BrowserRouter>
