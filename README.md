@@ -16,6 +16,9 @@ This is a tool to ask for the refund of corporate expenses
 - Auth
 
 
+# Prerequisite
+
+update the .env file in /server with your credentials
 
 
 ## Install
