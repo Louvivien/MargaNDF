@@ -6,6 +6,16 @@
 This is a tool to ask for the refund of corporate expenses
 
 
+# Tech
+
+- React 
+- NodeJs
+- Express
+- MongoDB
+- Crud
+- Auth
+
+
 
 
 ## Install
